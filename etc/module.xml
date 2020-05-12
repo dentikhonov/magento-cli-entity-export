@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="DenTikhonov_CatalogImportCommand" setup_version="1.1.0">
+    <module name="DenTikhonov_CliImportCommand" setup_version="1.0.0">
         <sequence>
-            <module name="Magento_CatalogImportExport"/>
+            <module name="Magento_CliImportExport"/>
         </sequence>
     </module>
 </config>

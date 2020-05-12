@@ -1,5 +1,5 @@
 <?php
-namespace DenTikhonov\CatalogImportCommand\Model;
+namespace DenTikhonov\CliImportCommand\Model;
 
 use Magento\ImportExport\Model\Import as MagentoImport;
 use Magento\ImportExport\Model\Import\ErrorProcessing\ProcessingErrorAggregatorInterface;
@@ -7,7 +7,7 @@ use Symfony\Component\Filesystem\Exception\FileNotFoundException;
 
 /**
  * Class Import
- * @package DenTikhonov\CatalogImportCommand\Model
+ * @package DenTikhonov\CliImportCommand\Model
  */
 class Import
 {

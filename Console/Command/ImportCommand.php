@@ -1,5 +1,5 @@
 <?php
-namespace DenTikhonov\CatalogImportCommand\Console\Command;
+namespace DenTikhonov\CliImportCommand\Console\Command;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -10,7 +10,7 @@ use Symfony\Component\Filesystem\Exception\FileNotFoundException;
 /**
  * Class ImportCommand
  *
-@package DenTikhonov\CatalogImportCommand\Console\Command
+@package DenTikhonov\CliImportCommand\Console\Command
  */
 class ImportCommand extends Command
 {
@@ -99,7 +99,7 @@ class ImportCommand extends Command
     protected function getImportModel()
     {
         $this->state->setAreaCode('adminhtml');
-        return $this->objectManager->create('CedricBlondeau\CatalogImportCommand\Model\Import');
+        return $this->objectManager->create('DenTikhonov\CliImportCommand\Model\Import');
     }
 }
 

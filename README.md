@@ -2,6 +2,12 @@
 A console command for importing catalog files.
 
 ## Install
+```
+composer require dentikhonov/magento-cli-entity-export
+php bin/magento module:enable DenTikhonov_CliImportCommand 
+php bin/magento setup:upgrade
+```
+
 
 ## Usage
 ```bash
